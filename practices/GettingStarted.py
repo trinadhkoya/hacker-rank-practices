@@ -1,0 +1,6 @@
+myFile=open('/Users/trinadhkoya/abc.txt')
+data=myFile.read()
+myFile.close()
+print(data)
+print(data.split('\n'))
+print(data.split('\n')[0][1:])
