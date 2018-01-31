@@ -1,6 +1,3 @@
-import re
-
-
 def plusMinus(arr):
     pos = 0
     neg = 0
@@ -18,9 +15,9 @@ def plusMinus(arr):
     print(neg)
     print(zero)
 
-    print(format(pos/len(arr),".6f"))
-    print(format(neg/len(arr),".6f"))
-    print(format(zero/len(arr),".6f"))
+    print(format(pos / len(arr), ".6f"))
+    print(format(neg / len(arr), ".6f"))
+    print(format(zero / len(arr), ".6f"))
 
 
 if __name__ == '__main__':
